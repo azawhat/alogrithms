@@ -3,7 +3,7 @@ public class Main {
 
         int[] arr = {10,7,32,3,5};
         int min = findMin(arr, arr.length);
-        System.out.println("Minimum number is " + min);
+        System.out.println("The minimum number is " + min);
     }
     public static int findMin(int[] arr, int n) {
         if (n == 1) {
