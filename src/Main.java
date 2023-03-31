@@ -4,6 +4,9 @@ public class Main {
         int[] arr = {10,7,32,3,5};
         int min = findMin(arr, arr.length);
         System.out.println("The Minimum number is " + min);
+        int[] arr1 = {3,2,4,1};
+        double avg = findAvg(arr1, arr1.length);
+        System.out.println("The average is "+ avg);
     }
     public static int findMin(int[] arr, int n) {
         if (n == 1) {
@@ -14,4 +17,16 @@ public class Main {
             return Math.min(min, arr[n-1]);
         }
     }
+    public static double findAvg(int[] arr, int n){
+        if (n==0){
+            return arr[0];
+        }
+        else {
+            double sum = findAvg(arr, n-1)*(n-1);
+            sum += arr[n-1];
+            return sum/n;
+
+        }
+    }
 }
+
