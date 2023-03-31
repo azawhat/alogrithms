@@ -6,7 +6,7 @@ public class Main {
         System.out.println("The Minimum number is " + min);
         int[] arr1 = {3,2,4,1};
         double avg = findAvg(arr1, arr1.length);
-        System.out.println("The average is "+ avg);
+        System.out.println("The average number is "+ avg);
     }
     public static int findMin(int[] arr, int n) {
         if (n == 1) {
