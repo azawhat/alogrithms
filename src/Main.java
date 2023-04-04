@@ -1,7 +1,9 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
-        int[] arr = {10,7,32,3,5};
+    /*    int[] arr = {10,7,32,3,5};
         int min = findMin(arr, arr.length);
         System.out.println("The Minimum number is " + min);
         int[] arr1 = {3,2,4,1};
@@ -26,7 +28,16 @@ public class Main {
             sum += arr[n-1];
             return sum/n;
 
-        }
+        }*/
+        int n=10;
+        System.out.println(isPrime(n));
+    }
+
+    public static String isPrime(int num){
+        if (num%2 ==0)
+            return("Prime");
+        else
+            return("Composite");
     }
 }
 
