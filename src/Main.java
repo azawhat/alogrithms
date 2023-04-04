@@ -29,8 +29,11 @@ public class Main {
             return sum/n;
 
         }*/
-        int n=10;
-        System.out.println(isPrime(n));
+        /*int n=10;
+        System.out.println(isPrime(n));*/
+        int n = 5;
+        int factorial = factorialNum.factorial(n);
+        System.out.println(factorial);
     }
 
     public static String isPrime(int num){
