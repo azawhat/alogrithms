@@ -31,9 +31,13 @@ public class Main {
         }*/
         /*int n=10;
         System.out.println(isPrime(n));*/
-        int n = 5;
+        /*int n = 5;
         int factorial = factorialNum.factorial(n);
-        System.out.println(factorial);
+        System.out.println(factorial);*/
+
+        int n = 5;
+        int fibonacci = Fibonacci.fibonacci(n);
+        System.out.println(fibonacci);
     }
 
     public static String isPrime(int num){
