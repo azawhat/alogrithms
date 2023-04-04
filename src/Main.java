@@ -1,4 +1,6 @@
 import java.sql.SQLOutput;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,9 +30,12 @@ public class Main {
             sum += arr[n-1];
             return sum/n;
 
-        }*/
+        }
+
+        */
         /*int n=10;
         System.out.println(isPrime(n));*/
+
         /*int n = 5;
         int factorial = factorialNum.factorial(n);
         System.out.println(factorial);*/
@@ -38,11 +43,25 @@ public class Main {
         /*int n = 5;
         int fibonacci = Fibonacci.fibonacci(n);
         System.out.println(fibonacci);*/
-        double a = 2;
+
+
+        /*double a = 2;
         int n = 10;
         double result = PowerOfNum.power(a, n);
-        System.out.println(result);
+        System.out.println(result);*/
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Length ");
+        int n = sc.nextInt();
+        System.out.println("Write"+ " elements:");
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) arr[i] = sc.nextInt();
+        ReverseArray.reverseArray(arr);
+        System.out.println(Arrays.toString(arr));
+
     }
+
+
 
     public static String isPrime(int num){
         if (num%2 ==0)
