@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -50,14 +49,19 @@ public class Main {
         double result = PowerOfNum.power(a, n);
         System.out.println(result);*/
 
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         System.out.println("Length ");
         int n = sc.nextInt();
         System.out.println("Write "+ " elements:");
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = sc.nextInt();
         ReverseArray.reverseArray(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));*/
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println();
+        String n = sc.nextLine();
+        System.out.println(CheckingForDigits.loop(n));
 
     }
 

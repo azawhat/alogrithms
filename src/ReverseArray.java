@@ -8,8 +8,8 @@ public class ReverseArray {
         if (start < stop) {
             int temp = arr[start];
             arr[start] = arr[stop];
-            arr[stop] = temp; //swapping edge elements
-            reverse(arr, ++start, --stop); //continue
+            arr[stop] = temp;
+            reverse(arr, ++start, --stop);
         }
     }
 }
