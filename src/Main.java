@@ -106,12 +106,15 @@ public class Main {
         System.out.println(CheckingForDigits.loop(n));*/
 
 
-
-        int c = sc.nextInt();
+        /*int c = sc.nextInt();
         int p =sc.nextInt();
         int ans = BinomialCoeff.func(c,p);
-        System.out.println(ans);
+        System.out.println(ans);*/
 
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int gcd = GCD.findGCD(a,b);
+        System.out.println(gcd);
     }
 }
 
