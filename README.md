@@ -7,7 +7,7 @@ The Main file has solutions for first three tasks. Other tasks were done in diff
 All code for the first three problems were commented in the main part, this commit [A function that finds is number prime or composite](https://github.com/azawhat/alogrithms/commit/abb913c230cfd98529f33509e62aeb81630f4a3a)
 
 
-## Problem 1
+## Problem 1. [Link](https://github.com/azawhat/alogrithms/commit/e5f498fddcf010805eeaa74791b73d1dc4beede3) 
 
 **Description:** _A function that finds minimum_
 
@@ -35,7 +35,7 @@ public class Main {
 }
 ```
 
-## Problem 2
+## Problem 2 [Link](https://github.com/azawhat/alogrithms/commit/0de78344a93b935cc3e94d3812552c2b02caf5a1)
 
 **Description:** _A function that returns average number_
 
@@ -64,7 +64,7 @@ public class Main {
 ```
 
 
-## Problem 3
+## Problem 3 [Link](https://github.com/azawhat/alogrithms/commit/abb913c230cfd98529f33509e62aeb81630f4a3a)
 **Description:** _A function to check number. Is it prime or composite_
 
 **Explanation:** 
@@ -84,7 +84,7 @@ public static void main(String[] args) {
     }
 ```
 
-## Problem 4
+## Problem 4 [Link](https://github.com/azawhat/alogrithms/commit/fcb8a8d88ba597097c0ef8b90634b3970329cfc1)
 **Description:** _Factorial of num by using recursion_
 
 **Explanation:** 
@@ -108,7 +108,7 @@ public class Main {
     }
 }
 ```
-## Problem 5
+## Problem 5 [Link](https://github.com/azawhat/alogrithms/commit/3003dac994e182056c02de626860a4d8ca307cc8)
 **Description:** _N-th number of Fibonacci sequence by using recursion_
 
 **Explanation:** 
@@ -137,7 +137,7 @@ public class Main {
 }
 
 ```
-## Problem 6
+## Problem 6 [Link](https://github.com/azawhat/alogrithms/commit/0045a458826db6ea40b1bd778a8c093616f8fc5c)
 **Description:** _Problem that finds a^n_
 
 **Explanation:** 
@@ -165,7 +165,7 @@ public class Main {
     }
 }
 ```
-## Problem 7
+## Problem 7 [Link](https://github.com/azawhat/alogrithms/commit/fc47883f38cc055314037ca7c8c7cef2def7c8dd)
 **Description:** _Reversed array_
 
 **Explanation:** 
@@ -202,7 +202,7 @@ public class Main {
 ```
 
 
-## Problem 8
+## Problem 8 [Link](https://github.com/azawhat/alogrithms/commit/970e23fecc73ce5d6e397625d342d47121fba845)
 **Description:** _Checking for digits_
 
 **Explanation:** 
@@ -243,7 +243,7 @@ public class Main{
     }
 }
 ```
-## Problem 9
+## Problem 9 [Link](https://github.com/azawhat/alogrithms/commit/c3d9ca28d430ca0b1c3ff38b29106c382fa50cb1)
 **Description:** _Binomial coefficient_
 
 **Explanation:** 
@@ -273,7 +273,7 @@ public class Main {
     }
 }
 ```
-## Problem 10
+## Problem 10 [Link](https://github.com/azawhat/alogrithms/commit/321dba626a04afbd1a735006c5b8ff321d945019)
 **Description:** _GCD by two numbers_
 
 **Explanation:** 
