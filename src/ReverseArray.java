@@ -1,5 +1,12 @@
-import java.util.Arrays;
-import java.util.Scanner;
+/*
+
+  reverseArray - definition of function to reverse array
+  reverse - definition of function to reverse
+  arr - array
+  start - to find start
+  stop - to define stop
+
+*/
 public class ReverseArray {
     public static void reverseArray(int[] arr) {
         reverse(arr, 0, arr.length-1);

@@ -1,3 +1,11 @@
+/*
+
+  fibonacci - definition of function
+  n - numbers to find fibonacci of that number
+  return  - returning fibonacci of number
+
+*/
+
 public class Fibonacci {
     public static int fibonacci(int n) {
         if (n == 0) {

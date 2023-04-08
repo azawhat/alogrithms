@@ -1,5 +1,13 @@
+/*
+
+  binomial - definition of function
+  n, p  - numbers that is needed in the formula
+  return  - returning addition of the function by the formula
+
+*/
+
 public class BinomialCoeff {
-    public static int func(int n, int p) {
+    public static int binomial(int n, int p) {
         if (n == p) {
             return 1;
         }
@@ -7,6 +15,6 @@ public class BinomialCoeff {
             return 1;
         }
         else
-            return func(n-1, p-1) + func(n-1, p);
+            return binomial(n-1, p-1) + binomial(n-1, p);
     }
 }

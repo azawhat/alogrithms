@@ -1,3 +1,16 @@
+/*
+
+  loop - definition of function
+  recFunction -
+  isNum - definition of function, that checks is symbol number or not
+  letter - letters in the word
+  arr - array
+  pos - position current
+  stop - where is the end
+  return  - returning answer yes or no
+
+*/
+
 public class CheckingForDigits {
 
     public static String loop(String letter) {

@@ -1,3 +1,15 @@
+/*
+
+  findMin - definition of function that finds minimum
+  arr - array of numbers
+  n - length of array
+  findAvg - function to find an average number
+  isPrime  - function to check is prime or not
+
+*/
+
+
+
 import java.util.Arrays;
 import java.util.Scanner;
 
